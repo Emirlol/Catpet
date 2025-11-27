@@ -2,9 +2,9 @@
 # Required stuff, https://fabricmc.net/develop/
 minecraft = "1.21.10"
 yarnMappings = "1.21.10+build.2"
-fabricLoader = "0.17.3"
+fabricLoader = "0.18.1"
 
-loom = "1.12-SNAPSHOT" # https://github.com/FabricMC/fabric-loom/releases
+loom = "1.13-SNAPSHOT" # https://github.com/FabricMC/fabric-loom/releases
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
