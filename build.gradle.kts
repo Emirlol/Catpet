@@ -39,17 +39,3 @@ tasks {
 		}
 	}
 }
-
-
-/*
-/execute at @p run summon minecraft:cat ~1 ~ ~ {NoAI:1b,PersistenceRequired:1b,variant:}
-/execute at @p run summon minecraft:cat ~2 ~ ~ {NoAI:1b,PersistenceRequired:1b,CatType:1b}
-/execute at @p run summon minecraft:cat ~3 ~ ~ {NoAI:1b,PersistenceRequired:1b,CatType:2b}
-/execute at @p run summon minecraft:cat ~4 ~ ~ {NoAI:1b,PersistenceRequired:1b,CatType:3b}
-/execute at @p run summon minecraft:cat ~5 ~ ~ {NoAI:1b,PersistenceRequired:1b,CatType:4b}
-/execute at @p run summon minecraft:cat ~6 ~ ~ {NoAI:1b,PersistenceRequired:1b,CatType:5b}
-/execute at @p run summon minecraft:cat ~7 ~ ~ {NoAI:1b,PersistenceRequired:1b,CatType:6b}
-/execute at @p run summon minecraft:cat ~8 ~ ~ {NoAI:1b,PersistenceRequired:1b,CatType:7b}
-/execute at @p run summon minecraft:cat ~9 ~ ~ {NoAI:1b,PersistenceRequired:1b,CatType:8b}
-/execute at @p run summon minecraft:cat ~10 ~ ~ {NoAI:1b,PersistenceRequired:1b,CatType:9b}
- */
