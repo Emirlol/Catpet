@@ -5,6 +5,11 @@
 	"name": "Catpet",
 	"description": "Pet cats with horse hooves, flattening them into carpets.",
 	"authors": [ "Rime" ],
+	"contact": {
+		"sources": "https://github.com/Emirlol/catpet",
+		"issues": "https://github.com/Emirlol/catpet/issues",
+		"homepage": "https://modrinth.com/mod/catpet"
+	},
 	"license": "All-Rights-Reserved",
 	"environment": "*",
 	"entrypoints": { },
