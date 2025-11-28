@@ -23,7 +23,9 @@ public class LivingEntityMixin {
 		if (instance instanceof AbstractHorseEntity horse && entity instanceof CatEntity cat && !cat.getEntityWorld().isClient() && horse.hasPlayerRider()) {
 			var pos = cat.getBlockPos();
 			var world = cat.getEntityWorld();
-			world.setBlockState(pos, getCarpet(cat), Block.NOTIFY_ALL);
+
+			if (!world.isAir(pos)) world.setBlockState(pos, getCarpet(cat), Block.NOTIFY_ALL);
+
 			world.playSound(cat, pos, SoundEvents.UI_HUD_BUBBLE_POP, cat.getSoundCategory(), 1.0F, 1.0F);
 			cat.kill((ServerWorld) world);
 		} else original.call(instance, entity);
